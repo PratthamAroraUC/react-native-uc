@@ -309,6 +309,8 @@
 
     _scrollListeners = [NSHashTable weakObjectsHashTable];
 
+  printf("shaggz -> init properties in RCTScrollview -> address = %lu \n",self.hash);
+
     [self addSubview:_scrollView];
   }
   return self;
